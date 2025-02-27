@@ -27,4 +27,11 @@ public class HomePage extends BasePage {
     public void clickOnLoginLink() {
         click(loginLink);
     }
+
+    @FindBy(id = "1")
+    WebElement letTheCarWork;
+
+    public void clickOnLetTheCarWork() {
+        click(letTheCarWork);
+    }
 }
